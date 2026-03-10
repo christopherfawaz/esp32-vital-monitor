@@ -1,4 +1,4 @@
-# Vital Monitor
+# Finger Pulse & Blood Oxygen Monitor
 
 A fingertip heart rate and blood oxygen monitor built with an Arduino Nano ESP32, MAX30105 optical sensor, and SSD1309 OLED display.
 
