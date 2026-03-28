@@ -21,13 +21,17 @@ The system samples infrared and red light at 400Hz, detects pulse peaks in real-
 
 ## Hardware
 
-* **Arduino Nano ESP32** - Main microcontroller
-* **MAX30105 pulse oximeter sensor** - Optical heart rate and SpO₂ sensor (also compatible with MAX30102)
-* **SSD1309 128×64 2.42" I2C OLED display** - High-contrast monochrome display
-* **Breadboard** - For prototyping
-* **Jumper wires** - Male-to-female recommended
-* **USB-C cable** - For programming and power
-* **Power bank** (optional) - For portable operation
+| Component | Specification | Quantity | Est. Cost | Notes |
+|-----------|---------------|----------|-----------|-------|
+| **Arduino Nano ESP32** | Main microcontroller | 1 | $10-15 | Official Arduino or compatible |
+| **MAX30105** | Pulse oximeter sensor breakout | 1 | $10-20 | MAX30102 also compatible |
+| **SSD1309 OLED** | 128×64, 2.42", I2C, White | 1 | $8-12 | SSD1306 would work as well |
+| **Breadboard** | 400 or 830 tie-points | 1 | $3-5 | Any size works |
+| **Jumper wires** | Male-to-female, 10cm | 8+ | $2-3$ | For breadboard connections |
+| **USB-C cable** | Data + Power capable | 1 | $3-8 | For programming and power |
+| **Power bank** *(optional)* | 5V USB output, 2000mAh+ | 1 | $10-20 | For portable/untethered operation |
+
+**Total estimated cost:** $35-60 USD
 
 ## Wiring
 
